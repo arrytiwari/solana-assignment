@@ -51,7 +51,7 @@ export function Dashboard() {
               )}
             </div>
           ) : (
-            <div className="flex items-center justify-center h-[400px] text-muted-foreground">
+            <div className="flex items-center justify-center h-[400px] font-bold text-black">
               Enter a wallet address to view liquidity pools
             </div>
           )}
