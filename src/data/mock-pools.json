@@ -1,0 +1,242 @@
+[
+  {
+    "name": "LUCE/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "LUCE"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "LUCE"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "FARTCOIN/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "FARTCOIN"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "FARTCOIN"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "SOL/USDC",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "USDC"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "SOL"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "USDC"
+    }
+  },
+  {
+    "name": "LUIGI/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "LUIGI"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "LUIGI"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "LMAC/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "LMAC"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "LMAC"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "BULLY/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "BULLY"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "BULLY"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "MOTHER/USDC",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "MOTHER"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "MOTHER"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "USDC"
+    }
+  },
+  {
+    "name": "MOTHER/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "MOTHER"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "MOTHER"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "CHILL GUY/SOL",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "CHILL GUY"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "CHILL GUY"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "SOL"
+    }
+  },
+  {
+    "name": "COSTCO HOT DOG/USDC",
+    "percentage": "5%",
+    "balance": 10000.0,
+    "pendingYield": 1000.0,
+    "estYield": 5,
+    "priceRange": {
+      "min": 0.0004,
+      "max": 0.0009
+    },
+    "currentPrice": {
+      "value": 0.0006,
+      "tokenA": "SOL",
+      "tokenB": "COSTCO HOT DOG"
+    },
+    "tokenA": {
+      "amount": 500000,
+      "symbol": "COSTCO HOT DOG"
+    },
+    "tokenB": {
+      "amount": 230,
+      "symbol": "USDC"
+    }
+  }
+]
