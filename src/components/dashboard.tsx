@@ -6,16 +6,24 @@ import { PoolsTable } from './pools-table'
 import { Pool } from '@/types/pool'
 import { Button } from '@/components/ui/button'
 import MOCK_POOLS from '../data/mock-pools.json'
+import { fetchPositionsForOwner, setWhirlpoolsConfig } from '@orca-so/whirlpools';
+import { createSolanaRpc, devnet, address, mainnet } from '@solana/web3.js';
 
-
-export function Dashboard() {
+export default function Dashboard() {
   const [pools, setPools] = useState<Pool[]>([])
   const [loading, setLoading] = useState(false)
   const [visiblePools, setVisiblePools] = useState(10)
 
-  const handleWalletSubmit = async (address: string) => {
+  const handleWalletSubmit = async (address1: string) => {
     setLoading(true)
     try {
+      await setWhirlpoolsConfig('solanaMainnet');
+const devnetRpc = createSolanaRpc(mainnet('https://mainnet.helius-rpc.com/?api-key=542afb3e-51f1-4d80-aa1e-98c102e81230'));
+const owner = address("38xjKJ8wKuc3CJX1UifHibSxedYiVYFd3PUgLAia7uZS"); // set an owner address
+
+const positions = await fetchPositionsForOwner(devnetRpc, owner);
+
+console.log(positions);
       await new Promise(resolve => setTimeout(resolve, 1000))
       setPools(MOCK_POOLS as Pool[])
       setVisiblePools(10)
@@ -25,6 +33,7 @@ export function Dashboard() {
       setLoading(false)
     }
   }
+
 
   const handleLoadMore = () => {
     setVisiblePools(prev => Math.min(prev + 10, pools.length))
